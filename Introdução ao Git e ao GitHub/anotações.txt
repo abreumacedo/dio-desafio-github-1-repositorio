@@ -1,0 +1,145 @@
+4 - CRIANDO SEU PRIMEIRO REPOSITORIO NO GITHUB PARA COMPARTILHAR SEU PROGESSO
+===========================================================================
+
+
+
+1.1 - Introdução e apresentando algumas coisinhas
+-------------------------------------------------
+
+
+
+> "Alguém está sentado na sombra hoje porque alguém plantou uma árvore há muito tempo." - Warren Buffett
+
+
+
+Prof. Venilton FalvoJr
+
+LINKEDIN: https://linke.com/in/falvojr
+GITHUB:    https://github.com/falvojr
+
+
+
+## 1.1 NOÇÕES BASICAS DE GITHUB
+
+
+
+
+* Introdução ao Git e ao GitHub (sugestão de curso)
+
+* Git devidamente instalado (usar o git bash)
+
+
+
+1.2 - GIT E GITHUB: RELEMBRANDO ALGUMAS COISINHAS
+-------------------------------------------------
+
+
+
+* Perfil GitHub
+
+* Menu > Your Repositories:
+  https://github.com/abreumacedo?tab=repositories
+
+* Botão "New"
+  https://github.com/new
+
+* Definir nome do repositório:
+  dio-desafio-github-1-repositorio
+
+* Definir uma descrição
+  Desafio de Projeto sobre Git/GitHub
+
+* Definir como Publico:
+  [X] Public
+
+* Botão "Create Repository"
+
+* Abrir o repositório:
+  https://github.com/abreumacedo/dio-desafio-github-1-repositorio
+
+
+
+OBS: [X] **gitignore** e usado para arquivos que NÃO precisam de versionamento (porque são os mesmo de acordo com cada linguagem)
+
+* Botão "Code" dropdown : (para poder clonar  o repositório na nossa maquia)
+
+* Pode editar o README.md direto do GitHub:
+
+``` README.md
+# Desafio de projeto sobre Git/GitHub da DIO
+
+Repositório criado para o Desafio de projeto
+
+## Links úteis:
+[Sintaxe Básica Markdown](https://www.markdownguide.org/basic-syntax/)
+``` 
+
+  OBS: Sintase do markdow:
+  https://www.markdownguide.org/basic-syntax/
+
+
+* Clonar o repositorio do GITHUB para repositorio LOCAL:
+
+* Botão "Code" dropdown : 
+  HTTPS - copiar link HTTPS
+  https://github.com/abreumacedo/dio-desafio-github-1-repositorio.git
+
+* Abra o **Git Bash** na pasta do seu repositrio LOCAL:
+* pasta LOCAL c:\Workspace
+
+``` bash
+$ git clone https://github.com/abreumacedo/dio-desafio-github-1-repositorio.git
+```
+entrar na pasta dio-desafio-github-1-repositorio:
+
+``` bash
+$ git ls
+
+$ cd dio-desafio-github-1-repositorio:
+
+$ git status
+```
+
+* criar uma pasta "Introdução ao Git e ao GitHub" dentro do repositorio LOCAL:
+
+* criar um arquivo de texto "Anotações.txt":
+
+``` bash
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        "Introdu\303\247\303\243o ao Git e ao GitHub/"
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+```
+
+``` bash
+$ git add .
+```
+
+ou
+
+``` bash
+$ git add *
+```
+
+``` bash
+$ git commit -m "Adicionado anotações do curso do GitHub"
+```
+
+1.3 - DESAFIO DE PROJETO
+------------------------
+
+
+
+1.4 - ENTENDENDO O DESAFIO
+--------------------------
+
+
+
+1.5 - ENTREGAR PROJETO
+----------------------
